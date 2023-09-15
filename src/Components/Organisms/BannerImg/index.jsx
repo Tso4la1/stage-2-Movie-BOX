@@ -5,7 +5,7 @@ import { NavBar } from '../NavBar';
 import imdb from "../../../assets/imdb.png";
 import PngItem from "../../../assets/PngItem.png";
 
-export const BannerImg = (props) => {
+export const BannerImg = () => {
     const [movie, setMovie] = useState([]);
     const [movieBanner, setMovieBanner] = useState("");
 
@@ -43,7 +43,7 @@ export const BannerImg = (props) => {
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat',
                     backgroundPosition: 'center',
-                    height: '90vh',
+                    height: '80vh',
                     filter: 'brightness(0.8)',
                 }}
             >

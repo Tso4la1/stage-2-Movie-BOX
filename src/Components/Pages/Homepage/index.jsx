@@ -16,8 +16,7 @@ export const Homepage = () => {
 
             </div>
 
-            <div></div>
-            <div className="gap-x-4 mt-8">
+            <div className="gap-x-4">
                 <MovieGallery />
             </div>
 
